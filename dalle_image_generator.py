@@ -3,7 +3,7 @@ import urllib.request
 from PIL import Image
 import streamlit as st
 
-openai.api_key = "User your api key here."
+openai.api_key = "Use your api key here."
 
 def generate_image(image_description, image_quantity):
     response = openai.Image.create(
